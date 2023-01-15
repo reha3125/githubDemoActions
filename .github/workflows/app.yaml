@@ -24,4 +24,4 @@ jobs:
         
     
     - name: Deploy to AWS S3
-      run: aws s3 sync . s3://github-action-workflow3125
+      run: aws s3 sync ./build s3://github-action-workflow3125
